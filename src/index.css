@@ -1,0 +1,100 @@
+:root {
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  /* min-width: 320px; */
+  /* height: 100vh; */
+}
+
+.blurEffectDiv {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  scale: 85%;
+}
+
+body button {
+  position: absolute;
+  z-index: 100;
+  border: 2px solid black;
+  background-color: white;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+h5 {
+  margin: 10px 0px 10px 0px;
+  font-size: 16px;
+}
+
+.additionalSectionDiv {
+  box-shadow:
+    rgba(0, 0, 0, 0.16) 0px 1px 4px,
+    rgb(51, 51, 51) 0px 0px 0px 3px;
+  margin-bottom: 100px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 50px;
+  padding-bottom: 30px;
+}
+
+.additionalSectionDiv .skillDiv * {
+  margin: 0;
+  padding: 0;
+}
+
+.additionalSectionDiv .editSkillsBtn {
+  left: 0px;
+}
+
+.additionalSectionDiv .editHobbyBtn {
+  right: 420px;
+}
+
+.additionalSectionDiv .skillDiv {
+  margin: 10px 20px 10px;
+  display: flex;
+}
+
+.additionalSectionDiv h3 {
+  margin: 20px 20px;
+}
+
+.additionalSectionDiv h4,
+.additionalSectionDiv input[placeholder="Category"] {
+  font-size: 20px;
+  width: 50%;
+}
+
+.additionalSectionDiv .skillDiv h5,
+input[placeholder="Strengths"] {
+  margin-top: 2px;
+  font-size: 14px;
+}
+
+.additionalSectionDiv .sectLvl4,
+.additionalSectionDiv .sectLvl5 {
+  width: 50%;
+}
+
+.additionalSectionDiv h5,
+.additionalSectionDiv .sectLvl5 input {
+  margin: 10px 0px 0px 20px;
+  font-size: 16px;
+}
